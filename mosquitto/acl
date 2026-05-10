@@ -1,0 +1,13 @@
+# Device can only read commands and write telemetry
+user device
+topic read spedi/vehicle/joystick
+topic read spedi/vehicle/route
+topic write spedi/vehicle/status
+topic write spedi/vehicle/camera
+
+# Server can only write commands and read telemetry
+user server
+topic write spedi/vehicle/joystick
+topic write spedi/vehicle/route
+topic read spedi/vehicle/status
+topic read spedi/vehicle/camera

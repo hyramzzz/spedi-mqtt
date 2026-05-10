@@ -1,0 +1,1 @@
+{"services":{"1ae7091c-fd32-426c-bb60-7fc8a3ecd228":{"networking":{"serviceDomains":{"spedi-core-production-8104.up.railway.app":{"port":8080}}},"build":{"builder":"DOCKERFILE","dockerfilePath":"Dockerfile"}}}}
